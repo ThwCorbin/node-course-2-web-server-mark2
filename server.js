@@ -1,6 +1,7 @@
 const express = require("express");
 const hbs = require("hbs");
 const fs = require("fs");
+
 let app = express();
 
 hbs.registerPartials(__dirname + "/views/partials");
